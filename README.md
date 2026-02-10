@@ -1,31 +1,35 @@
-# Job Market Intelligence — Data Analyst Roles
+📊 Job Market Intelligence — Data Analyst Hiring Trends
 
-End-to-end data analytics project analyzing real Naukri job postings.
+End-to-end data analytics project analyzing real job postings from Naukri
 
-## Pipeline
-Web scraping → Data cleaning → SQL analytics → Power BI dashboard
+This project scrapes real job listings, cleans and models skill demand, performs SQL analytics, and visualizes hiring trends using Power BI.
+Built as a complete industry-style data pipeline.
 
-## Tech Stack
-Python, Selenium, Pandas  
-MySQL  
-Power BI  
+🚀 Project Overview
 
-## Dataset
-527 job postings  
-Cities: Hyderabad, Bengaluru, Mumbai  
+The goal of this project is to understand:
 
-## Key Insights
-- SQL in ~60% of jobs  
-- Python in ~40%  
-- SQL + Python roles pay higher  
-- Entry roles dominate  
-- Visualization tools widely required  
+Which skills are most demanded for data analyst roles
 
-## Dashboard
-Power BI dashboard included.
+How salary varies by skills and experience
 
-## How to run
-1. Run scraper
-2. Clean data
-3. Insert into MySQL
-4. Open Power BI dashboard
+What skill combinations lead to higher pay
+
+Real hiring trends from job market data
+
+This is a full pipeline project from web scraping → analytics → dashboard.
+
+🚀 Project Overview
+
+The goal of this project is to understand:
+
+Which skills are most demanded for data analyst roles
+
+How salary varies by skills and experience
+
+What skill combinations lead to higher pay
+
+Real hiring trends from job market data
+
+This is a full pipeline project from web scraping → analytics → dashboard.
+
