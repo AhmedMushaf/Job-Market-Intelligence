@@ -198,13 +198,9 @@ SELECT
 CASE 
 
     WHEN SQL=1 AND Python=1 THEN 'SQL + Python'
-    
     WHEN SQL=1 THEN 'SQL only'
-    
     WHEN Python=1 THEN 'Python only'
-    
     ELSE 'Other'
-    
 END AS skill_group,
 
 AVG(salary_lpa_min) avg_salary
