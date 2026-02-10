@@ -192,15 +192,25 @@ Key queries performed:
 Example:
 
 sql
+
 SELECT 
+
 CASE 
+
     WHEN SQL=1 AND Python=1 THEN 'SQL + Python'
+    
     WHEN SQL=1 THEN 'SQL only'
+    
     WHEN Python=1 THEN 'Python only'
+    
     ELSE 'Other'
+    
 END AS skill_group,
+
 AVG(salary_lpa_min) avg_salary
+
 FROM jobs
+
 GROUP BY skill_group;
 
 ---
@@ -217,26 +227,34 @@ The dashboard includes:
 - Hiring insights panel
 
 File included:
+
 dashboard/power_bi_dashboard.pbix
 ---
 
 ⚙️ How to Run
 
 1️⃣ Install dependencies
+
 pip install -r requirements.txt
 
 2️⃣ Run scraper
+
 python run_scraper.py
 
 3️⃣ Clean data
+
 python data_cleaning.py
 
 4️⃣ Insert into MySQL
+
 python insert_mysql.py
 
 5️⃣ Open dashboard
+
 Open Power BI file:
+
 power_bi_dashboard.pbix
+
 ---
 
 📌 Future Improvements
@@ -248,7 +266,9 @@ power_bi_dashboard.pbix
 ---
 
 👨‍💻 Author
+
 Ahmed Mushaf
+
 Data Analyst | Python | SQL | Power BI
 
 
