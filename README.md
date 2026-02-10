@@ -90,31 +90,57 @@ Power BI Dashboard
 ## 📂 Project Structure
 
 job-market-intelligence
+
 │
+
 ├── scraping/
+
 │ ├── search_naukri.py
+
 │ ├── job_details_scraper.py
+
 │ ├── run_scraper.py
+
 │ ├── config.py
+
 │ └── utils.py
+
 │
+
 ├── analysis/
+
 │ ├── data_cleaning.py
+
 │ └── phase_6_eda.ipynb
+
 │
+
 ├── database/
+
 │ ├── insert_mysql.py
+
 │ └── sql_query.sql
+
 │
+
 ├── dashboard/
+
 │ └── power_bi_dashboard.pbix
+
 | └──power_bi_dashboard.png
+
 │
+
 ├── data/
+
 │ └── processed/
+
 │ └── job_details_cleaned_sample.csv
+
 │
+
 ├── requirements.txt
+
 └── README.md
 
 ---
