@@ -47,16 +47,22 @@ This is a **full pipeline project** from web scraping → analytics → dashboar
 ## 🧱 Pipeline Architecture
 
 Web Scraping (Selenium)
+
 ↓
 Raw Job URLs + Job Details
+
 ↓
 Data Cleaning & Skill Modeling (Pandas)
+
 ↓
 MySQL Database
+
 ↓
 Advanced SQL Analytics
+
 ↓
 Power BI Dashboard
+
 
 ---
 
