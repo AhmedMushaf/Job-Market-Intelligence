@@ -223,10 +223,9 @@ The dashboard includes:
 - Hiring insights panel
 
 File included:
-
 dashboard/power_bi_dashboard.pbix
----
 
+---
 ⚙️ How to Run
 
 1️⃣ Install dependencies
